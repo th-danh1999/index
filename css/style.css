@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+nav ul li a
+{color:white !important}
+nav ul li a:hover
+{color:rgba(255,0,90,1.00) !important}
+.home{
+	width: 100%;
+	height: 100vh;
+	background:url("../Parallax Showcase – Awake/awake16_parallax_img1.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+	background-attachment: fixed;
+}
+
+.home1{
+	width: 100%;
+	height: 100vh;
+	background:;
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+	background-attachment: fixed;
+}
+
+.home2{
+	width: 100%;
+	height: 100vh;
+	background:url("../Parallax Showcase – Awake/awake16_parallax_img3.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+	background-attachment: fixed;
+}
+
+.home3{
+	width: 100%;
+	height: 100vh;
+	background:url("../Parallax Showcase – Awake/awake16_parallax_img4.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+	background-attachment: fixed;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	color: white !important;
+	background:rgba(98,0,1,1.00) !important;
+}
+.nav-doc{
+	top: 50% !important;
+	
+}
+.nav-doc .nav-link{
+	background: transparent !important;
+	padding-top:0;
+	padding-bottom:0;
+	width: 80%;
+	transition: all 0.2s;
+	text-align:left;
+}
+.nav-doc .nav-link hr{
+	height: 2px;
+	background: red;
+	z-index: 100000 !important;
+}
+.nav-doc .nav-pills .nav-link.active, .nav-pills .show>.nav-link hr{
+	color: white;
+	background-color: green !important;
+	width: 50%
+}
